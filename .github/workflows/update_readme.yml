@@ -1,0 +1,36 @@
+name: Update README Daily
+
+# Trigger: Run this whenever code is pushed to the 'main' branch
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch: # Allows you to run it manually if needed
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # Gives the robot permission to edit your README
+
+    steps:
+      # 1. Check out your code
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      # 2. Install Python
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      # 3. Run your script
+      - name: Run update script
+        run: python update_readme.py
+
+      # 4. Save the changes (Commit & Push)
+      - name: Commit and push changes
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: "🤖 Auto-update README with new day"
+          file_pattern: README.md
