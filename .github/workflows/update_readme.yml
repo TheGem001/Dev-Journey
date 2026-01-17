@@ -32,5 +32,5 @@ jobs:
       - name: Commit and push changes
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: "🤖 Auto-update README with new day"
+          commit_message: "🤖 Auto-update README with new day [skip ci]"
           file_pattern: README.md
