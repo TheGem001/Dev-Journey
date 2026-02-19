@@ -1,40 +1,38 @@
-# 🚀 My Coding Journey & Daily Log
+<div align="center">
 
-### Hi there, I'm Saqib Zahid (Gem) 👋
-I am a Software Engineering student at **IUB** and the founder of **Gem Labs**. This repository documents my daily progress, experiments, and learnings as I dive deeper into **Python, Web Development (PWAs), Cybersecurity,** and **Physics simulations**.
+  # 🛤️ Dev-Journey
+  **The "1% Better Every Day" Coding Challenge**
 
-> *"He who has a why to live for can bear almost any how."* — Friedrich Nietzsche
+  ![Python](https://img.shields.io/badge/Focus-Python_3-3776AB?style=for-the-badge&logo=python&logoColor=white)
+  ![Vibe Coding](https://img.shields.io/badge/Methodology-Vibe_Coding_(AI)-5A0FC8?style=for-the-badge)
+  ![Status](https://img.shields.io/badge/Status-Active_Streak-success?style=for-the-badge)
 
----
-
-## ⚡ Current Focus
-- **Core:** Python (Automation, CLI tools), Progressive Web Apps (PWAs)
-- **Learning:** Ethical Hacking, Physics (Electromagnetism/Optics)
-- **Projects:** [Splitify](https://github.com/Gem-Labs/Splitify), [Gem Store](https://github.com/Gem-Labs/Gem-Store)
-
----
-
-## 📈 Daily Progress Log
-
-| Day | Topic | Details | Link |
-| :--- | :--- | :--- | :--- |
-| **Day 01** | Setup | Initializing repo & basic setup | [Go to Folder](./Day-01-Setup) |
-| **Day 02** | ... | ... | ... |
+  <p align="center">
+    <i>"A public ledger of my evolution as a Software Engineer. No zero days."</i>
+  </p>
+</div>
 
 ---
 
-## 🛠️ Tech Stack & Tools
-<p align="left">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
-  <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" />
-</p>
+## 📜 The Manifesto
+
+Welcome to my **Dev-Journey**. This repository is not a single application; it is a living, breathing archive of my daily coding habits. As a Software Engineering student, I believe that mastery comes from consistent, daily execution. 
+
+Here, you will find a chaotic but beautiful mix of algorithms, utility scripts, API experiments, and rapid prototypes. 
+
+### 🧠 The Methodology: "Vibe Coding"
+I actively utilize **AI-Augmented Development (Vibe Coding)**. By collaborating with Large Language Models, I focus on system architecture, logic flow, and creative problem-solving, allowing AI to assist with boilerplate and syntax. This allows me to build and ship ideas at lightning speed.
 
 ---
 
-## 🤝 Connect with Me
-- **GitHub:** [@SaqibZahid](https://github.com/SaqibZahid)
-- **Organization:** [Gem Labs](https://github.com/Gem-Labs)
-- **Discord:** Gem
-- 
+## 📂 Repository Blueprint
+
+Currently, the journey is heavily focused on mastering backend logic and automation. 
+
+```text
+📦 Dev-Journey
+ ┗ 📂 Python
+   ┗ 📂 Vibe Coding (AI-Assisted Micro-Projects)
+     ┣ 📜 downloader.py       # Utility for fetching web assets
+     ┣ 📜 Joke Teller.py      # API integration & string manipulation
+     ┗ 📜 Text to Speach.py   # Audio processing & TTS libraries
